@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react'
 
 const Second = () => {
@@ -16,7 +17,7 @@ const Second = () => {
         {/* image div */}
         <div className='w-full md:w-1/2 flex justify-center items-center ' >
 
-          <img className='' src="/images/quran.png" alt="arrow" />
+          <Image  src="/images/quran.png" alt="arrow" width={447} height={325} />
         </div>
 
         <div className='w-full md:w-1/2 flex justify-center  '>

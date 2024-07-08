@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react'
 
 const Five = () => {
@@ -12,7 +13,7 @@ const Five = () => {
         {/* image div */}
         <div className='w-full md:w-1/2 flex justify-center items-center ' >
 
-          <img className='' src="/images/pray.png" alt="arrow" />
+          <Image  src="/images/pray.png" alt="arrow" width={591} height={443} />
         </div>
 
         <div className='w-full md:w-1/2 flex flex-col justify-center gap-6  '>

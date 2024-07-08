@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react'
 
 const First = () => {
@@ -13,7 +14,7 @@ const First = () => {
             </div>
             <div className='flex md:flex-row flex-col gap-6 p-14'>
                <div className='shadow-xl p-10 rounded-2xl flex flex-col items-center gap-6  bg-emerald-100'>
-                <img src="/images/svg2.png" alt="" className='h-16'/>
+                <Image src="/images/svg2.png" alt=""  width={60} height={60}/>
                 <h2 className='font-bold text-[25px]'>Step 1</h2>
                 <h1 className='font-extrabold text-[22px]'>Send Inquiry</h1>
                 <p className='font-medium text-[17px] '>Experience the Convenience of Learning
@@ -26,7 +27,7 @@ const First = () => {
                </div>
  
                <div className='shadow-xl p-10 rounded-2xl flex flex-col items-center gap-6  bg-emerald-100'>
-                <img src="/images/SVG1.png" alt="" className='h-16'/>
+                <Image src="/images/SVG1.png" alt=""  width={60} height={60}/>
                 <h2 className='font-bold text-[25px]'>Step 2</h2>
                 <h1 className='font-extrabold text-[22px]'>Free Trial Online</h1>
                 <p className='font-medium text-[17px]'>Check Your Schedule Upon Enrolling
@@ -39,7 +40,7 @@ const First = () => {
                </div>
 
                <div className='shadow-xl p-10 rounded-2xl flex flex-col items-center gap-6 bg-emerald-100'>
-                <img src="/images/SVG.png" alt="" className='h-16'/>
+                <Image src="/images/SVG.png" alt="" width={60} height={60}/>
                 <h2 className='font-bold text-[25px]'>Step 3</h2>
                 <h1 className='font-extrabold text-[22px]'>Get Quick Admission</h1>
                 <p className='font-medium text-[17px]'>Satisfied with our free trial classes? If

@@ -1,4 +1,5 @@
 'use client'
+import Image from 'next/image';
 import React, { useState } from 'react';
 import { IoMdClose, IoMdMenu } from 'react-icons/io';
 
@@ -20,7 +21,7 @@ const Navbar = () => {
             <div className='w-full top-0 left-0 flex '>
                 <div className='flex justify-between  py-4  md:max-w-7xl w-full mx-auto '>
 
-                    <img src="./images/fav.png" alt="img" />
+                    <Image src="/images/fav.png" alt="img" width={86} height={86} />
 
 
                     <div onClick={() => setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden'>

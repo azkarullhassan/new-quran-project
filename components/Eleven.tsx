@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react'
 
 const Eleven = () => {
@@ -28,8 +29,8 @@ programs cater to individual needs.</p>
 
                {/* child-div */}
                <div className='flex gap-4 py-6'>
-                <img src="./images/fb.png" alt="fb-logo" />
-                <img src="./images/twitter.png" alt="twtr-logo" />
+                <Image src="/images/fb.png" alt="fb-logo"  width={40} height={400} />
+                <Image src="/images/twitter.png" alt="twtr-logo"  width={40} height={400} />
                </div>
               </div>
 
@@ -69,13 +70,16 @@ programs cater to individual needs.</p>
               <h2 className="text-white text-2xl font-bold font-['Roboto Slab'] leading-[40px] py-6">Get in touch</h2>
 
               {/* para-1 */}
-              <p className="text-slate-200 text-base font-bold font-['Roboto Slab'] leading-relaxed"><span className='bolck lg:inline-flex'><img src="./images/arrow.png" alt="arrow" className='w-[30px] h-[30px] hover:rotate-45' /></span> Mobile: <span className='hover:text-emerald-400'>+923124810000</span></p>
+              <p className="text-slate-200 text-base font-bold font-['Roboto Slab'] leading-relaxed"><span className='bolck lg:inline-flex'>
+                <Image src="/images/arrow.png" alt="arrow"  width={28} height={30} className=' hover:rotate-45' /></span> Mobile: <span className='hover:text-emerald-400'>+923124810000</span></p>
 
                {/* para-2 */}
-              <p className="text-slate-200 text-base font-bold font-['Roboto Slab'] leading-relaxed"><span className='block  lg:inline-flex '><img src="./images/arrow.png" alt="arrow" className='w-[30px] h-[30px] hover:rotate-45' /></span> Whatsapp:<span className='hover:text-emerald-400'>92312481000</span></p>
+              <p className="text-slate-200 text-base font-bold font-['Roboto Slab'] leading-relaxed"><span className='block  lg:inline-flex '>
+                <Image src="/images/arrow.png" alt="arrow"  width={28} height={30} className=' hover:rotate-45' /></span> Whatsapp:<span className='hover:text-emerald-400'>92312481000</span></p>
 
               {/* para-3 */}
-              <p className="text-slate-200 text-base font-bold font-['Roboto Slab'] leading-relaxed hover:text-emerald-400 flex-wrap "><span className='lg:inline-flex block hover:rotate-45'><img src="./images/arrow.png" alt="arrow" className='w-[28px] h-[30px] ' /></span> pakquranteaching <span className='inline-flex md:block lg:inline-flex text-amber-400'>@gmail.com</span></p>
+              <p className="text-slate-200 text-base font-bold font-['Roboto Slab'] leading-relaxed hover:text-emerald-400 flex-wrap "><span className='lg:inline-flex block hover:rotate-45'>
+                <Image src="/images/arrow.png" alt="arrow"  width={28} height={30} /></span> pakquranteaching <span className='inline-flex md:block lg:inline-flex text-amber-400'>@gmail.com</span></p>
               </div>
                  
             </div>

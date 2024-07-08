@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Footer = () => {
@@ -25,12 +26,12 @@ const Footer = () => {
                     <div className='w-[60vw] flex '>
                         {/* sub-child-1 */}
                         <div className='w-[20vw] bg-[#60C147] flex justify-center items-center'>
-                         <img src="./images/222.png" alt="img" />
+                         <Image src="/images/222.png" alt="img" width={15} height={15} />
                         </div>
 
                           {/* sub-child-2 */}
                           <div className='w-[20vw] bg-[#313232] flex justify-center items-center'>
-                         <img src="./images/111.png" alt="img" />
+                         <Image src="/images/111.png" alt="img" width={15} height={15} />
                         </div>
 
                           {/* sub-child-3 */}

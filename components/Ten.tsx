@@ -1,4 +1,5 @@
 "use client"
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
 import { AiFillCaretDown, AiFillCaretUp } from "react-icons/ai";
 
@@ -10,9 +11,8 @@ const Ten = () => {
   };
 
   useEffect(() => {
-    // You can perform any initialization or side effects here
-    // This code will execute on the client side after initial render
-  }, []); // Empty dependency array ensures this runs only once after initial render
+    
+  }, []); 
 
   return (
     <section className='w-full py-16'>
@@ -31,7 +31,7 @@ const Ten = () => {
                   className="text-neutral-800 text-md md:text-xl font-bold font-roboto-slab leading-[30px] bg-white py-6 px-2 md:px-8 w-full lg:w-[519px] flex gap-4 md:gap-16"
                   onClick={() => toggleQuestion(1)}
                 >
-                  <p>Who can enroll in “Learn Quran <br /> Online” courses?</p>
+                  <p>Who can enroll in Learn Quran <br /> Onlin courses?</p>
                   {!openQuestion || openQuestion !== 1 ? (
                     <AiFillCaretDown className='h-8' />
                   ) : (
@@ -120,7 +120,7 @@ const Ten = () => {
           </div>
 
           <div className='w-1/2 hidden md:flex'>
-            <img src="./images/masjid.png" alt="img" />
+            <Image src="/images/masjid.png" alt="img" width={591} height={900} />
           </div>
         </div>
       </main>

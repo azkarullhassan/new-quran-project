@@ -1,4 +1,5 @@
 
+import Image from 'next/image';
 import React from 'react'
 
 const Third = () => {
@@ -27,7 +28,7 @@ const Third = () => {
                             }}>
                                 {/* child-1 */}
                                 <div className='flex gap-4'>
-                                    <img src="/images/choose-1.png" alt="logo-1" />
+                                    <Image src="/images/choose-1.png" alt="logo-1" width={66} height={66}/>
                                     <h2 className="text-neutral-800 text-xl font-bold font-['Roboto Slab'] leading-[30px] pt-5">Flexible Schedule 24/7</h2>
                                 </div>
                                 <p className="text-gray-700 text-base font-normal font-['Roboto Slab'] py-8 ">Our dedicated team of experts ensures 24/7
@@ -48,7 +49,7 @@ const Third = () => {
                             }}>
                                 {/* child-1 */}
                                 <div className='flex gap-4'>
-                                    <img src="/images/choose-2.png" alt="logo-2" />
+                                    <Image src="/images/choose-2.png" alt="logo-2" width={66} height={66}/>
                                     <h2 className="text-neutral-800 text-xl font-bold font-['Roboto Slab'] leading-[30px] pt-5">Flexible Schedule 24/7</h2>
                                 </div>
                                 <p className="text-gray-700 text-base font-normal font-['Roboto Slab'] py-8 ">Our dedicated team of experts ensures 24/7
@@ -69,7 +70,7 @@ const Third = () => {
                             }}>
                                 {/* child-1 */}
                                 <div className='flex gap-4'>
-                                    <img src="/images/choose-3.png" alt="logo-3" />
+                                    <Image src="/images/choose-3.png" alt="logo-3" width={66} height={66} />
                                     <h2 className="text-neutral-800 text-xl font-bold font-['Roboto Slab'] leading-[30px] pt-5">Flexible Schedule 24/7</h2>
                                 </div>
                                 <p className="text-gray-700 text-base font-normal font-['Roboto Slab'] py-8 ">Our dedicated team of experts ensures 24/7
@@ -94,7 +95,7 @@ const Third = () => {
                             }}>
                                 {/* child-1 */}
                                 <div className='flex gap-4'>
-                                    <img src="/images/choose-4.png" alt="logo-4" />
+                                    <Image src="/images/choose-4.png" alt="logo-4" width={66} height={66} />
                                     <h2 className="text-neutral-800 text-xl font-bold font-['Roboto Slab'] leading-[30px] pt-5">Flexible Schedule 24/7</h2>
                                 </div>
                                 <p className="text-gray-700 text-base font-normal font-['Roboto Slab'] py-8 ">Our dedicated team of experts ensures 24/7
@@ -115,7 +116,7 @@ const Third = () => {
                             }}>
                                 {/* child-1 */}
                                 <div className='flex gap-4'>
-                                    <img src="/images/choose-5.png" alt="logo-5" />
+                                    <Image src="/images/choose-5.png" alt="logo-5" width={66} height={66}/>
                                     <h2 className="text-neutral-800 text-xl font-bold font-['Roboto Slab'] leading-[30px] pt-5">Flexible Schedule 24/7</h2>
                                 </div>
                                 <p className="text-gray-700 text-base font-normal font-['Roboto Slab'] py-8 ">Our dedicated team of experts ensures 24/7
@@ -136,7 +137,7 @@ const Third = () => {
                             }}>
                                 {/* child-1 */}
                                 <div className='flex gap-4'>
-                                    <img src="/images/choose-6.png" alt="logo-6" />
+                                    <Image src="/images/choose-6.png" alt="logo-6" width={66} height={66} />
                                     <h2 className="text-neutral-800 text-xl font-bold font-['Roboto Slab'] leading-[30px] pt-5">Flexible Schedule 24/7</h2>
                                 </div>
                                 <p className="text-gray-700 text-base font-normal font-['Roboto Slab'] py-8 ">Our dedicated team of experts ensures 24/7

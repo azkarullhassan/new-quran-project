@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Eight = () => {
@@ -19,7 +20,7 @@ const Eight = () => {
         backgroundRepeat:'no-repeat',
         
     }}>
-                      <img src="./images/Figure 1.png" alt="img" />
+                      <Image src="/images/Figure 1.png" alt="img" width={346} height={259} />
                       <p className="text-white text-xl font-bold font-['Roboto Slab'] leading-[30px]">Learn Basic Noorani Qaida Online</p>
                       {/* button sec */}
                       <button className=" rounded-[15px] text-center text-white hover:bg-emerald-800 text-base font-normal font-['Roboto Slab'] leading-relaxed border border-white p-3">Register Now</button>
@@ -34,7 +35,7 @@ const Eight = () => {
         backgroundRepeat:'no-repeat',
         
     }}>
-                      <img src="./images/pic1.png" alt="img" />
+                      <Image src="/images/pic1.png" alt="img" width={346} height={259} />
                       <p className="text-white text-xl font-bold font-['Roboto Slab'] leading-[30px]">Learn to Recite Quran Online</p>
                       {/* button sec */}
                       <button className=" rounded-[15px] text-center text-white hover:bg-emerald-800 text-base font-normal font-['Roboto Slab'] leading-relaxed border border-white p-3">Register Now</button>
@@ -49,7 +50,7 @@ const Eight = () => {
         backgroundRepeat:'no-repeat',
         
     }}>
-                      <img src="./images/pic2.png" alt="img" />
+                      <Image src="/images/pic2.png" alt="img" width={346} height={259} />
                       <p className="text-white text-xl font-bold font-['Roboto Slab'] leading-[30px]">Quran Memorization Online</p>
                       {/* button sec */}
                       <button className=" rounded-[15px] text-center text-white hover:bg-emerald-800 text-base font-normal font-['Roboto Slab'] leading-relaxed border border-white p-3">Register Now</button>
@@ -68,7 +69,7 @@ const Eight = () => {
         backgroundRepeat:'no-repeat',
         
     }}>
-                      <img src="./images/pic4.png" alt="img" />
+                      <Image src="/images/pic4.png" alt="img" width={346} height={259} />
                       <p className="text-white text-xl font-bold font-['Roboto Slab'] leading-[30px]">Learn Basic Noorani Qaida Online</p>
                       {/* button sec */}
                       <button className=" rounded-[15px] text-center text-white hover:bg-emerald-800 text-base font-normal font-['Roboto Slab'] leading-relaxed border border-white p-3">Register Now</button>
@@ -83,7 +84,7 @@ const Eight = () => {
         backgroundRepeat:'no-repeat',
         
     }}>
-                      <img src="./images/pic5.png" alt="img" />
+                      <Image src="/images/pic5.png" alt="img" width={346} height={259} />
                       <p className="text-white text-xl font-bold font-['Roboto Slab'] leading-[30px]">Learn to Recite Quran Online</p>
                       {/* button sec */}
                       <button className=" rounded-[15px] text-center text-white hover:bg-emerald-800 text-base font-normal font-['Roboto Slab'] leading-relaxed border border-white p-3">Register Now</button>
@@ -92,13 +93,13 @@ const Eight = () => {
 
                     {/* card-3 */}
                     <div className='bg-[#007F5F] w-full md:w-auto flex flex-col justify-center items-center gap-4 p-4 rounded-xl pb-6' style={{
-        backgroundImage: "url('./images/cor-bg.png')",
+        backgroundImage: "url('/images/cor-bg.png')",
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat:'no-repeat',
         
     }}>
-                      <img src="./images/pic6.png" alt="img" />
+                      <Image src="/images/pic6.png" alt="img" width={346} height={259} />
                       <p className="text-white text-xl font-bold font-['Roboto Slab'] leading-[30px]">Quran Memorization Online</p>
                       {/* button sec */}
                       <button className=" rounded-[15px] text-center text-white hover:bg-emerald-800 text-base font-normal font-['Roboto Slab'] leading-relaxed border border-white p-3">Register Now</button>
