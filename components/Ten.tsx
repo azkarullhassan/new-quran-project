@@ -20,7 +20,7 @@ const Ten = () => {
         <div className='flex gap-12'>
           <div className='w-full md:w-full lg:w-1/2 flex flex-col gap-12 px-6'>
             <div>
-              <img src="./images/Vector.png" alt="logo" />
+              <Image src="/images/Vector.png" alt="logo" width={60} height={60} />
               <h2 className="text-neutral-800 text-[32px] md:text-[35px] font-bold font-roboto-slab leading-[40px] md:leading-[45.50px] py-4">Frequently Asked Questions</h2>
             </div>
 
@@ -76,7 +76,7 @@ const Ten = () => {
                   )}
                 </button>
                 <div className={openQuestion === 3 ? 'block text-gray-700 text-base font-normal font-roboto-slab leading-relaxed px-4 py-10' : 'hidden'}>
-                  Yes, you can schedule classes based on your kid's availability.
+                  Yes, you can schedule classes based on your kid&apos;s availability.
                 </div>
               </div>
 

@@ -29,7 +29,7 @@ const Navbar = () => {
                     </div>
 
                     <ul className={`md:flex bg-emerald-950 md:bg-transparent lg:bg-transparent px-10 md:px-0   absolute md:static text-white md:text-gray-700 md:z-auto left-0 w-full md:w-auto transition-all duration-500 ease-in md:gap-12 gap-8 py-6 md:py-0 ${open ? 'top-20' : '-top-full md:top-0'}`}>
-                        <div className='flex md:hidden'>  <img src="./images/fav.png" alt="img" />
+                        <div className='flex md:hidden'>  <Image src="/images/fav.png" alt="img" width={86} height={86} />
                             <p>PAK QURAN</p>
                             <p></p></div>
                         {Links.map((link) => (
