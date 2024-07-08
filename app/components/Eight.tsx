@@ -115,4 +115,4 @@ const Eight = () => {
   )
 }
 
-export default Eight
+export default Eight

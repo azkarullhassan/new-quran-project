@@ -68,7 +68,7 @@ const Ten = () => {
                   className="text-neutral-800 text-md md:text-xl font-bold font-roboto-slab leading-[30px] bg-white py-6 px-8 w-full lg:w-[519px] flex gap-4 md:gap-16"
                   onClick={() => toggleQuestion(3)}
                 >
-                  <p>Can I schedule classes according to my kid’s availability?</p>
+                  <p>Can I schedule classes according to my kid&apos;s availability?</p>
                   {!openQuestion || openQuestion !== 3 ? (
                     <AiFillCaretDown className='h-8' />
                   ) : (

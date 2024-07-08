@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className='w-full bg-[#192C27]'>
                     {/* child-div */}
                     <div className='w-full md:w-1/2 text-center pt-5 text-white '>
-                   <p className=" Copyright © 2024 - with Pak Quran Academy."> Copyright © 2024 - with Pak Quran Academy.</p>
+                   <p className=" Copyright © 2024 - with Pak Quran Academy."> Copyright © 2024 - with Azkar ull hassan.</p>
                     </div>
                    </div>
 
@@ -47,4 +47,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer

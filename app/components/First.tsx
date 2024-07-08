@@ -7,7 +7,7 @@ const First = () => {
             <div className='pt-24'>
             <h1 className='font-bold text-[40px]'> <span className='text-[#D4AF37]'>Learn Quran Online</span> with Pak Quran Academy in the USA</h1>
             <p className='font-bold text-[16px]'>Are you looking for a convenient and effective way to Learn Quran Online? Pak Quran Academy is here to provide you with an exceptional online Quran learning
-             experience. We understand the importance of accessing quality Islamic education, regardless of your location. That’s why we offer comprehensive online Quran courses
+             experience. We understand the importance of accessing quality Islamic education, regardless of your location. That&apos;s why we offer comprehensive online Quran courses
             tailored to meet the needs of learners in the USA.</p>
 
             </div>

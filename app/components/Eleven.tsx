@@ -84,4 +84,4 @@ programs cater to individual needs.</p>
   )
 }
 
-export default Eleven
+export default Eleven;
