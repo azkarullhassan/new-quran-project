@@ -2,7 +2,7 @@ import React from 'react'
 
 const Six = () => {
   return (
-    <section className='w-full py-16'>
+    <section className='w-full py-16 p-4'>
       <main className='mx-auto max-w-7xl'>
         {/* main-div */}
         <div className='w-full'>
