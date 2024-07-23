@@ -12,7 +12,7 @@ const First = () => {
             tailored to meet the needs of learners in the USA.</p>
 
             </div>
-            <div className='flex md:flex-row flex-col gap-6 p-14'>
+            <div className='flex md:flex-row flex-col gap-6 p-6'>
                <div className='shadow-xl p-2 rounded-2xl flex flex-col items-center gap-6  bg-emerald-100'>
                 <Image src="/images/svg2.png" alt=""  width={60} height={60}/>
                 <h2 className='font-bold text-[25px]'>Step 1</h2>

@@ -10,7 +10,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className='w-full overflow-hidden'
+    <section className='w-full overflow-hidden '
       style={{
         width: '100%',
         height: '100vh',
