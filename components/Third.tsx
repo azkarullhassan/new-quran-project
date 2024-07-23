@@ -28,14 +28,14 @@ const Third = () => {
                             }}>
                                 {/* child-1 */}
                                 <div className='flex gap-4'>
-                                    <Image src="/images/choose-1.png" alt="logo-1" width={66} height={66}/>
+                                    <Image src="/images/choose-1.png" alt="logo-1" width={60} height={60}/>
                                     <h2 className="text-neutral-800 text-xl font-bold font-['Roboto Slab'] leading-[30px] pt-5">Flexible Schedule 24/7</h2>
                                 </div>
                                 <p className="text-gray-700 text-base font-normal font-['Roboto Slab'] py-8 ">Our dedicated team of experts ensures 24/7
                                     availability of our online Quran teachers.
                                     This presents an exceptional chance for
                                     you and your children to engage in online
-                                    Quran classes conveniently, regardless of
+                                    Quran Lorem, ipsum., regardless of
                                     your location and at any hour of the day.</p>
                             </div>
 
