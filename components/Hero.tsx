@@ -18,7 +18,7 @@ const Hero = () => {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}>
-      <main className='max-w-7xl '>
+      <main className='max-w-7xl carousel'>
         <Carousel>
           <CarouselContent>
             <CarouselItem>
