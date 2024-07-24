@@ -10,7 +10,7 @@ const Third = () => {
                 <div className=''>
                     {/* heading-section */}
                     <div className='text-center'>
-                        <h2 className="text-neutral-800 text-[35px] font-bold font-['Roboto Slab'] leading-[45.50px]">Why Choose <span className="text-amber-400">Pak Quran Academy?</span></h2>
+                        <h2 className= "p-2 text-neutral-800 text-[35px] font-bold font-['Roboto Slab'] leading-[45.50px]">Why Choose <span className="text-amber-400">Pak Quran Academy?</span></h2>
                         <p className="text-neutral-800 text-[25px] font-bold font-['Roboto Slab'] leading-[37.50px]">Our Competitive Features</p>
                     </div>
 
